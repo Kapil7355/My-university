@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leave apply</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+
+        }
+        body{
+            background-image: url("image.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+
+        }
+        .container{
+            background-color: aqua;
+            max-width : 800px;
+            padding:20px;
+        
+            
+        }
+        .apply{
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            text-align: center;
+            border-bottom: 3px solid black;
+
+        }
+        form .Userdetails{
+            margin-top: 30px;
+        }
+        
+        
+        form .Userdetails .inputbox input{
+            width:100%;
+            height: 30px;
+            margin-top: 20p;
+            
+        }
+        button{
+            width:100%;
+            text-align: center;
+            justify-content: center;
+            background-color: red;
+            padding:5px;
+            font-size: 16px;
+        }
+        .btn{
+            margin-top: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div >
+        <div class="container">
+            <div class="apply">Apply Leave(Teacher)</div>
+            <form>
+                <div class="Userdetails">
+                   
+                    <div class="inputbox">
+                        <span class="input">Searcy by Employee id</span>
+                        <input type="number" id="emoloyee id">
+                    </div>
+                    <div>
+                        <span class="input input2">Date</span><br>
+                        <input type="date"> 
+                    </div>
+                    <div>
+                        <span class="input input2">Time</span><br>
+                        <select>
+                            <option>Others</option>
+                            <option>Half Time</option>
+                            <option>Full Time</option>
+                        </select>
+                    </div>
+                <div>
+                    <button class="btn">Submit</button>
+                </div>
+                <div>
+                    <button class="btn">Cancel</button>
+                </div>
+        
+        
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
